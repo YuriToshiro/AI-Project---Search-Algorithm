@@ -322,7 +322,7 @@ def main():
         export_output(maze, came_from, file_path)
 
     pygame.display.update()
-    pygame.time.wait(500)
+    pygame.time.wait(60)
     pygame.quit()
     sys.exit()
 
